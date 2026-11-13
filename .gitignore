@@ -1,0 +1,12 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Python and local runtime artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+chroma/
+chroma_db/
